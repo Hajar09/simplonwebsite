@@ -1,0 +1,96 @@
+/* first:  point of view */
+.allview {
+    margin-top: 100px;
+}
+
+div.container { 
+    max-width: 400px;
+}
+
+div.container:hover .page{
+    transform: rotateY(180deg);
+}
+
+.container, .front, .back{
+    width: 400px;
+    height: 300px
+}
+
+.container, .height {
+    height: 400px
+}
+
+.container, .heightt {
+    height: 350px
+}
+
+.page {
+    transition: .6s;
+    position: relative;
+    transform-style: preserve-3d;
+}
+
+.back p {
+    padding-top : 35px;
+}
+
+.front img {
+    margin-top: 30px;
+    border-radius: 50%;
+}
+
+.front h1 {
+    margin-top: 30px;
+    color: #F3636B;
+}
+
+/* front hidden */
+
+.front {
+    z-index: 1;
+    transform: rotateY(0deg);
+    background-color:whitesmoke;
+    text-align: center;
+    border: solid 1px #F3636B;
+}
+
+.back {
+    transform: rotateY(180deg);
+    background-color:whitesmoke;
+    color:#F3636B;
+    border-radius: ;
+    text-align: center;
+    border: solid 1px #F3636B;
+    }
+    
+.container {
+    perspective:;
+}  
+
+/*back hidden */
+.front, .back {
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    }
+
+/* disposition */
+
+.blockone {
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 150px 0  150px;
+}
+
+.blocktwo {
+ margin-left: 510px;
+ margin-top: 100px;
+}
+
+.blockthree {
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 150px 100px  150px;
+
+}
