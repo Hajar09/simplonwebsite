@@ -37,6 +37,7 @@ div.container:hover .page{
 .front img {
     margin-top: 30px;
     border-radius: 50%;
+    box-shadow: 5px 2px 2px black;
 }
 
 .front h1 {
@@ -51,7 +52,8 @@ div.container:hover .page{
     transform: rotateY(0deg);
     background-color:whitesmoke;
     text-align: center;
-    border: solid 1px #F3636B;
+    border-top: solid 1px #F3636B;
+    border-bottom: solid 1px #F3636B;
 }
 
 .back {
@@ -60,7 +62,8 @@ div.container:hover .page{
     color:#F3636B;
     border-radius: ;
     text-align: center;
-    border: solid 1px #F3636B;
+    border-top: solid 1px #F3636B;
+    border-bottom: solid 1px #F3636B;
     }
     
 .container {
@@ -70,6 +73,7 @@ div.container:hover .page{
 /*back hidden */
 .front, .back {
     backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
     position: absolute;
     top: 0;
     left: 0;
