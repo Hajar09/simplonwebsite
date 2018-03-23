@@ -673,10 +673,14 @@ div.container:hover .page{
 
 div.Agnes {
 padding-left: 60px;
+margin-top: 150px;
 }
 
 div.Agnes h1 {
  text-align: center;
+ font-family: 'Roboto Slab', serif;
+ font-weight: 300;
+ color:#f3636b
 }
 .slider img {
     width: 700px;
@@ -693,14 +697,21 @@ div.Agnes h1 {
 
 .global {
     display: flex;
+    margin-top: 70px;
 }
 
 .lesarticles {
     flex: 1;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 400;
+    color:#f3636b;
 }
 
 .articlesbloc3 {
     margin: auto;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 400;
+    color:#f3636b;
 }
 
 .slider {
@@ -747,13 +758,10 @@ div.Agnes h1 {
 .articlesblocbas {
     display: flex;
     width: 100%;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 400;
+    color:#f3636b;
 }
-
-
-
-
-
-
 
 /*Part Yaelle : contact et partenaires*/ 
 
@@ -762,8 +770,13 @@ li, a{
 	list-style: none;
 }
 
+#partners {
+    margin-top: 150px;
+}
+
+
 #partners span img{
-	width: 150px;
+    width: 150px;
 
 }
 #partners span img:hover{
@@ -775,9 +788,10 @@ li, a{
 	width: 80%;
 	font-size: 20px;
 	text-align: center;
-	margin: 10% 10%;
+	margin: 10%;
 	font-family: 'Cormorant Garamond', serif;
-	font-weight: 300;
+    font-weight: 400;
+    color:#f3636b;
 
 }
 
@@ -789,16 +803,32 @@ li, a{
 
  #partners h1{
 	text-align: center;
-	font-family: 'RobotoSlab', serif;
+    font-family: 'Roboto Slab', serif;
+    color:#f3636b;
+    font-weight: 300;
 }
 
 footer{
 	width: 100%;
-	
 	background-color: whitesmoke;
 	display: flex;
 	flex-direction: column;
 }
+
+footer h1 {
+    font-family: 'Roboto Slab', serif;
+    color:black;
+    text-align: center;
+    font-weight: 300;
+}
+
+footer h2 {
+    font-family: 'Roboto Slab', serif;
+    color:#f3636b;
+    text-align: center;
+    font-weight: 300;
+}
+
 footer #part{
 	display: flex;
 	flex-direction: row;
@@ -806,7 +836,8 @@ footer #part{
 footer #formulaire{
 	width: 50%;
 	margin-left: 30px; 
-	font-family: 'RobotoSlab', serif;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 400;
 }
 
 footer label{
